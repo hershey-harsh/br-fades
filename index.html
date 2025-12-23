@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR Fades | Premium Barbershop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo"><img src="IMG_1654.jpeg" alt="BR Fades Logo"><span>BR Fades</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="book-btn" onclick="openModal()">Book Now</button>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Premium Cuts.<br>Clean Fades.</h1>
+            <p>Experience the art of barbering at BR Fades. Where precision meets style.</p>
+            <button class="cta-btn" onclick="openModal()">Book Appointment</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Premium grooming tailored to your style</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Haircut</h3>
+                        <span class="price">$10</span>
+                    </div>
+                    <p>A complete haircut tailored to your style, including fades, tapers, or classic scissor work. Finished with a professional blow-dry and premium styling product for a polished look.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Haircut + Beard</h3>
+                        <span class="price">$15</span>
+                    </div>
+                    <p>A full haircut customized to you, featuring fades, tapers, or classic scissor techniques. Includes blow-dry and styling with quality product. Beard is expertly trimmed and lined up.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Lineup</h3>
+                        <span class="price">$10</span>
+                    </div>
+                    <p>Precision hair and beard lineup to keep you sharp and clean. Eyebrows included.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>House Call</h3>
+                        <span class="price">$25</span>
+                    </div>
+                    <p>Premium in-home haircut service delivered with precision and professionalism. The BR FADES experience, brought directly to you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About BR Fades</h2>
+                    <p>I believe a great haircut comes down to precision, attention to detail, and real intention behind every cut. Every service I provide is fully customized—whether it's a seamless fade, a sharp taper, or clean scissor work—all designed to complement your look and boost your confidence.</p>
+                    <p>My chair is a space where quality always comes first. No rushing, no shortcuts—just exceptional craftsmanship and a premium experience from start to finish. When you leave BR Fades, you leave sharp, polished, and confident.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <p class="section-subtitle">Recent cuts from our chair</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="0E4A7324-70D6-40D3-BC38-5156129CB529.jpeg" alt="Fade haircut">
+                </div>
+                <div class="gallery-item">
+                    <img src="A7C1979B-2CAE-42C0-B41D-0FC78A5B2A2A.jpeg" alt="Textured cut">
+                </div>
+                <div class="gallery-item">
+                    <img src="B290A143-5250-4924-A7D4-D60F6E5AEBD4.jpeg" alt="Curly fade">
+                </div>
+                <div class="gallery-item">
+                    <img src="haircut4.jpeg" alt="Curly taper fade">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-subtitle">Get in touch with us</p>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div>
+                            <h4>Instagram</h4>
+                            <p><a href="https://instagram.com/Byranr.fades" target="_blank">@Byranr.fades</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:7744413099">(774) 441-3099</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div>
+                            <h4>Email</h4>
+                            <p>Coming Soon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">BR<span>Fades</span></a>
+                    <p>Premium barbershop experience.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/Byranr.fades" target="_blank" class="social-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BR Fades. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2>Book Your Appointment</h2>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="service">Select Service</label>
+                    <select id="service" name="service" required>
+                        <option value="">Choose a service...</option>
+                        <option value="haircut">Haircut - $10</option>
+                        <option value="haircut-beard">Haircut + Beard - $15</option>
+                        <option value="lineup">Lineup - $10</option>
+                        <option value="housecall">House Call - $25</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <select id="time" name="time" required>
+                            <option value="">Select time...</option>
+                            <option value="9:00">9:00 AM</option>
+                            <option value="9:30">9:30 AM</option>
+                            <option value="10:00">10:00 AM</option>
+                            <option value="10:30">10:30 AM</option>
+                            <option value="11:00">11:00 AM</option>
+                            <option value="11:30">11:30 AM</option>
+                            <option value="12:00">12:00 PM</option>
+                            <option value="12:30">12:30 PM</option>
+                            <option value="13:00">1:00 PM</option>
+                            <option value="13:30">1:30 PM</option>
+                            <option value="14:00">2:00 PM</option>
+                            <option value="14:30">2:30 PM</option>
+                            <option value="15:00">3:00 PM</option>
+                            <option value="15:30">3:30 PM</option>
+                            <option value="16:00">4:00 PM</option>
+                            <option value="16:30">4:30 PM</option>
+                            <option value="17:00">5:00 PM</option>
+                            <option value="17:30">5:30 PM</option>
+                            <option value="18:00">6:00 PM</option>
+                            <option value="18:30">6:30 PM</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="notes">Additional Notes (Optional)</label>
+                    <textarea id="notes" name="notes" rows="3" placeholder="Any special requests..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Request Appointment</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
