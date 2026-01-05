@@ -21,7 +21,7 @@
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <button class="book-btn" onclick="openModal()">Book Now</button>
+            <a href="https://brfades.setmore.com" target="_blank" class="book-btn">Book Now</a>
             <div class="hamburger" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
@@ -35,7 +35,7 @@
         <div class="hero-content">
             <h1>Premium Cuts.<br>Clean Fades.</h1>
             <p>Experience the art of barbering at BR Fades. Where precision meets style.</p>
-            <button class="cta-btn" onclick="openModal()">Book Appointment</button>
+            <a href="https://brfades.setmore.com" target="_blank" class="cta-btn">Book Appointment</a>
         </div>
     </section>
 
@@ -167,75 +167,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- Booking Modal -->
-    <div id="bookingModal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()">&times;</span>
-            <h2>Book Your Appointment</h2>
-            <form id="bookingForm">
-                <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" required placeholder="John Doe">
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required placeholder="john@example.com">
-                </div>
-                <div class="form-group">
-                    <label for="service">Select Service</label>
-                    <select id="service" name="service" required>
-                        <option value="">Choose a service...</option>
-                        <option value="haircut">Haircut - $10</option>
-                        <option value="haircut-beard">Haircut + Beard - $15</option>
-                        <option value="lineup">Lineup - $10</option>
-                        <option value="housecall">House Call - $25</option>
-                    </select>
-                </div>
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="date">Preferred Date</label>
-                        <input type="date" id="date" name="date" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="time">Preferred Time</label>
-                        <select id="time" name="time" required>
-                            <option value="">Select time...</option>
-                            <option value="9:00">9:00 AM</option>
-                            <option value="9:30">9:30 AM</option>
-                            <option value="10:00">10:00 AM</option>
-                            <option value="10:30">10:30 AM</option>
-                            <option value="11:00">11:00 AM</option>
-                            <option value="11:30">11:30 AM</option>
-                            <option value="12:00">12:00 PM</option>
-                            <option value="12:30">12:30 PM</option>
-                            <option value="13:00">1:00 PM</option>
-                            <option value="13:30">1:30 PM</option>
-                            <option value="14:00">2:00 PM</option>
-                            <option value="14:30">2:30 PM</option>
-                            <option value="15:00">3:00 PM</option>
-                            <option value="15:30">3:30 PM</option>
-                            <option value="16:00">4:00 PM</option>
-                            <option value="16:30">4:30 PM</option>
-                            <option value="17:00">5:00 PM</option>
-                            <option value="17:30">5:30 PM</option>
-                            <option value="18:00">6:00 PM</option>
-                            <option value="18:30">6:30 PM</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="notes">Additional Notes (Optional)</label>
-                    <textarea id="notes" name="notes" rows="3" placeholder="Any special requests..."></textarea>
-                </div>
-                <button type="submit" class="submit-btn">Request Appointment</button>
-            </form>
-        </div>
-    </div>
 
     <script src="script.js"></script>
 </body>
